@@ -28,5 +28,10 @@ files: [
     # e.g. "/resources/packages/ui/core/src/locale%two_letters_code%/%original_file_name%"
     #
     "translation": "packages/ui/core/src/locale/messages.%two_letters_code%.xlf",
+  },
+    {
+    "type": "json",
+    "source": "packages/pieces/**/**/src/i18n/translation.json",
+    "translation": "packages/pieces/**/**/src/i18n/%two_letters_code%.json"
   }
 ]
